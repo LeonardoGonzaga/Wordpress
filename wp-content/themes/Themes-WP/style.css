@@ -1,0 +1,124 @@
+/*
+Theme Name: Pizzaria On
+Theme URI: https://www.vwthemes.com/free/wp-food-restaurant-wordpress-theme/
+Author: Léo Gonzaga
+Author URI: https://www.vwthemes.com
+Description: VW Restaurant Lite Theme is a responsive multipurpose restaurant WordPress theme which is ideal for all types of hotel and food related websites. It best suits the food critics, food bloggers, eatery, food joint, lodge, hospitality business, bakery, café, coffee or any food business such as barbecues, grill houses, Italian restaurants, fast food, and pizzerias. The baker can display his cakes and the restaurants can put their recipe, cuisine and Chinese dishes as well. It is a beautiful, professional, interactive, and highly responsive WordPress theme built with the intention to create stunning websites that will suit elegant restaurants.This free theme has got various shortcodes and personalization options making it user-friendly and allowing you to design your site with the available secure and clean code. It has sharp looking testimonial section wherein you can feature the feedbacks of clients who are appreciate your services. There is Call to Action Button on the widely displayed pages having banner giving it an exclusive appearance. This theme is completely SEO friendly that helps in keeping your site on top of search engines. Furthermore, it has social media integration tools that make the visitors familiar with your social media presence. Built on Bootstrap, it comes with ready translation. Having optimized codes, the theme has faster page load time giving a smooth experience to the visitors. It is a readily mobile friendly theme having animated features that makes your site appear best on mobile devices. It is having e-commerce functionality as well.Check demo at: https://www.vwthemes.net/vw-restaurant-theme/
+Version: 1.0
+Text Domain: wp-pizzaria
+Tags: left-sidebar, right-sidebar, one-column, two-columns, three-columns, four-columns, grid-layout, custom-colors, custom-background, custom-logo, custom-menu, custom-header, editor-style, post-formats, flexible-header, featured-image-header, featured-images, footer-widgets, sticky-post, buddypress, full-width-template, front-page-post-form, theme-options, threaded-comments, translation-ready, rtl-language-support, food-and-drink, blog, e-commerce
+
+*/
+
+
+body{
+	width: 100%;
+}
+.navbar-brand {
+	 margin-right: 22rem;
+}
+
+
+
+#grad {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b6e026+0,abdc28+100;Green+Flat */
+background: #b6e026; /* Old browsers */
+background: -moz-linear-gradient(45deg, #b6e026 0%, #abdc28 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, #b6e026 0%,#abdc28 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, #b6e026 0%,#abdc28 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b6e026', endColorstr='#abdc28',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+
+
+
+#texto{
+	color: #fff;
+	/**border: 1px solid red;*/
+	padding-top: 240px;
+	padding-left: 150px;
+}
+
+#botaoSaiba{
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-top: 20px;
+	margin-left: 150px;
+	background-color: #32CD32;
+	border-radius: 30px;
+	border-color: #fff;
+}
+#botaoSaiba:hover{
+	color: #fff;
+	background-color: #b6e026;
+}
+
+#textoInformativo{
+	font-size: 15px;
+	color: #fff;
+	/**border: 1px solid red;*/
+}
+
+#texto2{
+	color: #fff;
+	/**border: 1px solid red;*/
+	padding-top: 100px;
+	padding-left: 150px;
+}
+
+#caixaImg{
+	padding-top: 100px;
+	width: 40px;
+}
+
+#imgGlobo{
+	width: 600px;
+	padding-top: 50px;
+}
+
+#imgLogo{
+	margin-left: 40px;
+}
+
+#about{
+	padding-top: 50px;
+	color: #fff;
+	text-align: center;
+}
+
+#aboutTxt{
+	text-align: justify;
+	font-size: 16px;
+	padding: 100px;
+	color: #fff;
+}
+
+#imgGeia{
+	padding: 150px;
+	padding-left: 250px;
+}
+
+#aboutTxt2{
+	text-align: justify;
+	font-size: 16px;
+	padding: 80px;
+	padding-top: 10px;
+	color: #fff;
+}
+
+#navbarText ul li { display: inline; }
+
+#navbarText ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+   /** border-bottom:2px solid #EDEDED;*/
+}
+
+#navbarText ul li a:hover {
+    background-color:#7DD181;
+    color: #fff;
+    border-radius: 40px;
+
+}
