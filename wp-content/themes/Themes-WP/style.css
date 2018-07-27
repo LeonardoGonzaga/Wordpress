@@ -12,15 +12,7 @@ Tags: left-sidebar, right-sidebar, one-column, two-columns, three-columns, four-
 
 
 body{
-	width: 100%;
-}
-.navbar-brand {
-	 margin-right: 22rem;
-}
-
-
-
-#grad {
+    width: 100%;
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b6e026+0,abdc28+100;Green+Flat */
 background: #b6e026; /* Old browsers */
 background: -moz-linear-gradient(45deg, #b6e026 0%, #abdc28 100%); /* FF3.6-15 */
@@ -29,81 +21,142 @@ background: linear-gradient(45deg, #b6e026 0%,#abdc28 100%); /* W3C, IE10+, FF16
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b6e026', endColorstr='#abdc28',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
+.rounded-circle{
+    margin-left: 22px;
+}
 
+p{
+    color: #fff;
+}
+
+h1{
+    color: #000;
+}
+
+h2{
+    color: #fff;
+}
+
+.btn-primary{
+    background-color: #32CD32;
+    border-color: #fff;
+}
+
+.btn-primary:hover{
+    background-color: #fff;
+    border-color: #32CD32;
+    color: #32CD32;
+}
+
+.navbar-brand {
+     margin-right: 22rem;
+     
+}
+
+h4{
+    color: #32CD32;
+}
+
+
+
+
+.navbar{
+    padding-left: 10rem;
+    padding-right: 6rem;
+}
+
+.text-center{
+    color:#fff;}
 
 
 #texto{
-	color: #fff;
-	/**border: 1px solid red;*/
-	padding-top: 240px;
-	padding-left: 150px;
+    color: #fff;
+    /**border: 1px solid red;*/
+    padding-top: 240px;
+    padding-left: 150px;
 }
 
 #botaoSaiba{
-	padding-left: 40px;
-	padding-right: 40px;
-	margin-top: 20px;
-	margin-left: 150px;
-	background-color: #32CD32;
-	border-radius: 30px;
-	border-color: #fff;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 20px;
+    margin-left: 150px;
+    background-color: #32CD32;
+    border-radius: 30px;
+    border-color: #fff;
 }
 #botaoSaiba:hover{
-	color: #fff;
-	background-color: #b6e026;
+    color: #fff;
+    background-color: #b6e026;
 }
 
 #textoInformativo{
-	font-size: 15px;
-	color: #fff;
-	/**border: 1px solid red;*/
+    font-size: 15px;
+    color: #fff;
+    /**border: 1px solid red;*/
 }
 
 #texto2{
-	color: #fff;
-	/**border: 1px solid red;*/
-	padding-top: 100px;
-	padding-left: 150px;
+    color: #fff;
+    /**border: 1px solid red;*/
+    padding-top: 100px;
+    padding-left: 150px;
 }
 
 #caixaImg{
-	padding-top: 100px;
-	width: 40px;
+    padding-top: 100px;
+    width: 40px;
 }
 
 #imgGlobo{
-	width: 600px;
-	padding-top: 50px;
+    width: 600px;
+    padding-top: 50px;
 }
 
 #imgLogo{
-	margin-left: 40px;
+    margin-left: 40px;
 }
 
 #about{
-	padding-top: 50px;
-	color: #fff;
-	text-align: center;
+    padding-top: 50px;
+    color: #fff;
+    text-align: center;
 }
 
 #aboutTxt{
-	text-align: justify;
-	font-size: 16px;
-	padding: 100px;
-	color: #fff;
+    text-align: justify;
+    font-size: 16px;
+    padding: 100px;
+    color: #fff;
 }
 
 #imgGeia{
-	padding: 150px;
-	padding-left: 250px;
+    padding: 150px;
+    padding-left: 250px;
 }
 
 #aboutTxt2{
-	text-align: justify;
-	font-size: 16px;
-	padding: 80px;
-	padding-top: 10px;
-	color: #fff;
+    text-align: justify;
+    font-size: 16px;
+    padding: 80px;
+    padding-top: 10px;
+    color: #fff;
+}
+
+#price{
+    color: #000;
+}
+
+.btn-outline-primary{
+     background-color: #fff;
+    border-color: #32CD32;
+    color: #32CD32;
+}
+
+.btn-outline-primary:hover{
+     color: #fff;
+    background-color: #32CD32;
+    border-color: #32CD32;
 }
 
 #navbarText ul li { display: inline; }
