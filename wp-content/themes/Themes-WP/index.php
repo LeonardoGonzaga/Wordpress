@@ -6,7 +6,7 @@
       <div class"container-fluid">
         <div class="row" >
             <div class="col-md-6  id="caixaTexto"> 
-                <h1 id="texto">Colhendo problemas, plantando soluções</h1>
+                <h1 id="texto"><?php echo get_theme_mod('twtema_descricoes-header-titulo'); ?></h1>
                  <button type="button" class="btn btn-primary" id="botaoSaiba">Saiba mais</button>
 
                 <div id="texto2">
@@ -27,7 +27,10 @@
       </div>
   <!-- Fim Container -->
 
-  <<?php get_template_part('includes/about', 'principal'); ?>
+  <?php get_template_part('includes/about', 'principal'); ?>
+  <?php get_template_part('includes/jobs', 'principal'); ?>
+  <?php get_template_part('includes/prices', 'principal'); ?>
+  <?php get_template_part('includes/contact', 'principal'); ?>
 
 
 
